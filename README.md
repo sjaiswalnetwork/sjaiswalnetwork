@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=D97757&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Shashank+Jaiswal+(Sj)+%F0%9F%91%8B;AI+Analyst+%C2%B7+Business+Transformation;I+build+MCP+servers%2C+AI+audits+%26+live+dashboards;Strategy+%2B+Operations+%2B+Generative+AI" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=D97757&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Shashank+Jaiswal+(Sj)+%F0%9F%91%8B;AI+Analyst+%C2%B7+Business+Transformation;I+build+MCP+servers%2C+AI+audits+%26+live+dashboards;Strategy+%2B+Operations+%2B+Generative+AI" alt="Typing intro" />
 
 **AI Analyst – Business Transformation & Intelligent Automation @ Bajaj Formulations**
 MBA (Marketing & IT), IIIT Allahabad · Noida, India
