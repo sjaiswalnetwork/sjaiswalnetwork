@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="220" viewBox="0 0 590 220">
+<defs><filter id="g" x="-10%" y="-40%" width="120%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" fill-opacity=".4"/></pattern></defs><style>.t{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:900} .r{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:700}
+.glA{animation:gA 2.6s infinite steps(1)} .glB{animation:gB 2.1s infinite steps(1)}
+@keyframes gA{0%,100%{transform:translate(-2px,0)}10%{transform:translate(-8px,2px)}12%{transform:translate(3px,-1px)}14%{transform:translate(-2px,0)}60%{transform:translate(-6px,0)}62%{transform:translate(-2px,0)}}
+@keyframes gB{0%,100%{transform:translate(2px,0)}30%{transform:translate(9px,-2px)}32%{transform:translate(-3px,1px)}34%{transform:translate(2px,0)}80%{transform:translate(6px,1px)}82%{transform:translate(2px,0)}}
+.dash{stroke-dasharray:80 40;animation:da 4s linear infinite} @keyframes da{to{stroke-dashoffset:-240}}
+.blink{animation:bk 1s infinite steps(1)} @keyframes bk{50%{opacity:0}}
+.flick{animation:fl 4.5s infinite} @keyframes fl{0%,30%,32%,70%,73%,100%{opacity:1}31%,71%{opacity:.3}}
+.gb{opacity:0;animation:gbk steps(1) infinite} @keyframes gbk{0%,86%,100%{opacity:0}87%{opacity:.85;transform:translateX(25px)}90%{opacity:.6;transform:translateX(-30px)}92%{opacity:0}}</style>
+<path d="M2 22 L22 2 H588 V198 L568 218 H2 Z" fill="#0b0118"/>
+<path d="M2 22 L22 2 H588 V198 L568 218 H2 Z" fill="none" stroke="#f9f002" stroke-width="2.5" class="dash" filter="url(#g)"/>
+<rect x="22" y="2" width="90" height="5" fill="#f9f002"/>
+<text x="24" y="34" class="r" font-size="12" letter-spacing="3" fill="#f9f002" opacity=".85">PRJ_03 :: COMPANION // AI</text>
+<text x="566" y="34" text-anchor="end" class="r" font-size="12" letter-spacing="2" fill="#b967ff"><tspan class="blink">●</tspan> REPO</text>
+<g class="t" font-size="30" letter-spacing="2">
+<text x="24" y="74" fill="#05d9e8" opacity=".8" class="glA">sj-buddy</text>
+<text x="24" y="74" fill="#ff2a6d" opacity=".8" class="glB">sj-buddy</text>
+<text x="24" y="74" fill="#fff" filter="url(#g)" class="flick">sj-buddy</text></g>
+<text x="24" y="106" class="r" font-size="15" fill="#d1c6ff">Desktop toon companion for Windows. ~4,000 lines of</text><text x="24" y="128" class="r" font-size="15" fill="#d1c6ff">C#, 990 dialogue lines in Hindi, English &amp; Hinglish.</text>
+<rect x="24" y="174" width="40" height="24" rx="3" fill="#f9f002" fill-opacity=".14" stroke="#f9f002" stroke-width="1"/><text x="44.0" y="191" text-anchor="middle" class="r" font-size="13" fill="#f9f002">C#</text><rect x="72" y="174" width="121" height="24" rx="3" fill="#f9f002" fill-opacity=".14" stroke="#f9f002" stroke-width="1"/><text x="132.5" y="191" text-anchor="middle" class="r" font-size="13" fill="#f9f002">Claude Code</text>
+<text x="564" y="191" text-anchor="end" class="t" font-size="14" letter-spacing="2" fill="#f9f002" filter="url(#g)">ACCESS ▶</text>
+<rect class="gb" style="animation-delay:-4.8s;animation-duration:5.3s" x="57" y="27" width="51" height="7" fill="#ff2a6d"/><rect class="gb" style="animation-delay:-3.7s;animation-duration:4.5s" x="315" y="68" width="185" height="5" fill="#05d9e8"/><rect class="gb" style="animation-delay:-2.9s;animation-duration:3.0s" x="441" y="167" width="130" height="10" fill="#f9f002"/><rect class="gb" style="animation-delay:-2.7s;animation-duration:3.8s" x="274" y="13" width="37" height="7" fill="#b967ff"/><rect class="gb" style="animation-delay:-4.7s;animation-duration:5.2s" x="433" y="138" width="72" height="10" fill="#ff2a6d"/>
+<path d="M2 22 L22 2 H588 V198 L568 218 H2 Z" fill="url(#scan)"/>
+</svg>

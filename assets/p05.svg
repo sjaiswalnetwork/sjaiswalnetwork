@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="220" viewBox="0 0 590 220">
+<defs><filter id="g" x="-10%" y="-40%" width="120%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="scan" width="4" height="3" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" fill-opacity=".4"/></pattern></defs><style>.t{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:900} .r{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:700}
+.glA{animation:gA 2.6s infinite steps(1)} .glB{animation:gB 2.1s infinite steps(1)}
+@keyframes gA{0%,100%{transform:translate(-2px,0)}10%{transform:translate(-8px,2px)}12%{transform:translate(3px,-1px)}14%{transform:translate(-2px,0)}60%{transform:translate(-6px,0)}62%{transform:translate(-2px,0)}}
+@keyframes gB{0%,100%{transform:translate(2px,0)}30%{transform:translate(9px,-2px)}32%{transform:translate(-3px,1px)}34%{transform:translate(2px,0)}80%{transform:translate(6px,1px)}82%{transform:translate(2px,0)}}
+.dash{stroke-dasharray:80 40;animation:da 4s linear infinite} @keyframes da{to{stroke-dashoffset:-240}}
+.blink{animation:bk 1s infinite steps(1)} @keyframes bk{50%{opacity:0}}
+.flick{animation:fl 4.5s infinite} @keyframes fl{0%,30%,32%,70%,73%,100%{opacity:1}31%,71%{opacity:.3}}
+.gb{opacity:0;animation:gbk steps(1) infinite} @keyframes gbk{0%,86%,100%{opacity:0}87%{opacity:.85;transform:translateX(25px)}90%{opacity:.6;transform:translateX(-30px)}92%{opacity:0}}</style>
+<path d="M2 22 L22 2 H588 V198 L568 218 H2 Z" fill="#0b0118"/>
+<path d="M2 22 L22 2 H588 V198 L568 218 H2 Z" fill="none" stroke="#05d9e8" stroke-width="2.5" class="dash" filter="url(#g)"/>
+<rect x="22" y="2" width="90" height="5" fill="#05d9e8"/>
+<text x="24" y="34" class="r" font-size="12" letter-spacing="3" fill="#05d9e8" opacity=".85">PRJ_05 :: MULTIPLAYER // RACE</text>
+<text x="566" y="34" text-anchor="end" class="r" font-size="12" letter-spacing="2" fill="#b967ff"><tspan class="blink">●</tspan> REPO</text>
+<g class="t" font-size="30" letter-spacing="2">
+<text x="24" y="74" fill="#05d9e8" opacity=".8" class="glA">kart-arena</text>
+<text x="24" y="74" fill="#ff2a6d" opacity=".8" class="glB">kart-arena</text>
+<text x="24" y="74" fill="#fff" filter="url(#g)" class="flick">kart-arena</text></g>
+<text x="24" y="106" class="r" font-size="15" fill="#d1c6ff">Six-player online go-kart racing. Authoritative Node</text><text x="24" y="128" class="r" font-size="15" fill="#d1c6ff">server, client-side prediction.</text>
+<rect x="24" y="174" width="112" height="24" rx="3" fill="#05d9e8" fill-opacity=".14" stroke="#05d9e8" stroke-width="1"/><text x="80.0" y="191" text-anchor="middle" class="r" font-size="13" fill="#05d9e8">JavaScript</text><rect x="144" y="174" width="58" height="24" rx="3" fill="#05d9e8" fill-opacity=".14" stroke="#05d9e8" stroke-width="1"/><text x="173.0" y="191" text-anchor="middle" class="r" font-size="13" fill="#05d9e8">Node</text>
+<text x="564" y="191" text-anchor="end" class="t" font-size="14" letter-spacing="2" fill="#05d9e8" filter="url(#g)">ACCESS ▶</text>
+<rect class="gb" style="animation-delay:-1.2s;animation-duration:2.8s" x="405" y="126" width="69" height="3" fill="#05d9e8"/><rect class="gb" style="animation-delay:-0.1s;animation-duration:4.1s" x="296" y="208" width="45" height="5" fill="#f9f002"/><rect class="gb" style="animation-delay:-1.4s;animation-duration:3.0s" x="108" y="71" width="84" height="2" fill="#f9f002"/><rect class="gb" style="animation-delay:-4.0s;animation-duration:3.1s" x="317" y="78" width="190" height="7" fill="#05d9e8"/><rect class="gb" style="animation-delay:-4.2s;animation-duration:3.5s" x="397" y="133" width="93" height="4" fill="#ff2a6d"/>
+<path d="M2 22 L22 2 H588 V198 L568 218 H2 Z" fill="url(#scan)"/>
+</svg>
