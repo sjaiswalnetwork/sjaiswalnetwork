@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
-<defs><filter id="g" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="ln" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05d9e8"/><stop offset=".5" stop-color="#ff2a6d"/><stop offset="1" stop-color="#b967ff"/></linearGradient></defs>
+<defs><filter id="g" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="ln" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05d9e8"/><stop offset=".5" stop-color="#ff2a6d"/><stop offset="1" stop-color="#b967ff"/></linearGradient></defs>
 <style>.m{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:700} .s{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}
 .in{animation:in .8s ease-out both} @keyframes in{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
 .pl{animation:pl 2s ease-in-out infinite} @keyframes pl{50%{opacity:.2}}
