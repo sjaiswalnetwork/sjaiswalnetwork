@@ -35,21 +35,23 @@ def cut(t, n):
 
 commits, repos = [], []
 try:
-    for ev in api(f"/users/{USER}/events/public?per_page=60"):
-        if ev.get("type") != "PushEvent":
-            continue
-        name = ev["repo"]["name"].split("/")[-1]
-        for c in reversed(ev["payload"].get("commits", [])):
-            msg = c["message"].splitlines()[0]
-            if msg.lower().startswith("merge"):
-                continue
-            commits.append((name, msg, ago(ev["created_at"])))
-        if len(commits) >= 5:
-            break
     for r in api(f"/users/{USER}/repos?sort=pushed&per_page=8"):
-        if r["name"] == USER or r.get("fork"):
+        if r.get("fork"):
             continue
-        repos.append((r["name"], r.get("language") or "—", r.get("stargazers_count", 0), ago(r["pushed_at"])))
+        if r["name"] != USER:
+            repos.append((r["name"], r.get("language") or "—", r.get("stargazers_count", 0), ago(r["pushed_at"])))
+        if len(repos) <= 4:
+            try:
+                for c in api(f"/repos/{USER}/{r['name']}/commits?per_page=4"):
+                    msg = c["commit"]["message"].splitlines()[0]
+                    if msg.lower().startswith("merge") or "[skip ci]" in msg:
+                        continue
+                    when = c["commit"]["author"]["date"]
+                    commits.append((when, r["name"], msg))
+            except Exception as e:
+                print("commits error", r["name"], e)
+    commits.sort(reverse=True)
+    commits = [(n, m, ago(w)) for w, n, m in commits]
 except Exception as e:  # keep the panel alive even if the API hiccups
     print("API error:", e)
 commits, repos = commits[:5], repos[:4]
