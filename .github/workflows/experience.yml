@@ -1,0 +1,50 @@
+name: experience-timeline
+
+# Redraws the Experience picture whenever you
+#   1) edit data/experience.yml, or
+#   2) upload a LinkedIn Positions.csv (or Positions-only .zip) into the linkedin/ folder.
+# No AI involved: a small Python script reads the file and draws the SVG.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/experience.yml"
+      - "linkedin/**"
+      - "scripts/experience.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: experience
+  cancel-in-progress: false
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q pyyaml
+      - name: Import LinkedIn file if one was uploaded
+        run: |
+          f=$(ls -t linkedin/*.csv linkedin/*.zip linkedin/*.CSV linkedin/*.ZIP 2>/dev/null | head -1 || true)
+          if [ -n "$f" ]; then
+            echo "Importing $f"
+            python scripts/experience.py --import "$f"
+            git rm -q --cached linkedin/*.csv linkedin/*.zip linkedin/*.CSV linkedin/*.ZIP 2>/dev/null || true
+            rm -f linkedin/*.csv linkedin/*.zip linkedin/*.CSV linkedin/*.ZIP
+          else
+            python scripts/experience.py
+          fi
+      - name: Save
+        run: |
+          git config user.name "neon-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data/experience.yml assets/experience.svg linkedin
+          git diff --cached --quiet && exit 0
+          git commit -m "experience: redraw timeline [skip ci]"
+          for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 3; done
