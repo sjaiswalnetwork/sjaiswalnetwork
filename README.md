@@ -5,6 +5,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=900&color=05d9e8&center=true&vCenter=true&width=900&lines=%3E+initializing+sj.exe+...;%3E+building+MCP+servers+for+live+business+data;%3E+auditing+900+calls%2Fday+with+AI;%3E+strategy+%2B+operations+%2B+generative+AI" alt="Typing intro" />
 
 <a href="https://linkedin.com/in/sj969"><img src="https://img.shields.io/badge/LinkedIn-sj969-0d0221?style=for-the-badge&logo=linkedin&logoColor=05d9e8&labelColor=0d0221&color=05d9e8" /></a>
+<a href="https://sjaiswalnetwork.github.io"><img src="https://img.shields.io/badge/Website-sjaiswalnetwork.github.io-0d0221?style=for-the-badge&logo=googlechrome&logoColor=f9f002&labelColor=0d0221&color=f9f002" /></a>
 <a href="mailto:sjaiswalnetwork@gmail.com"><img src="https://img.shields.io/badge/Email-sjaiswalnetwork-0d0221?style=for-the-badge&logo=gmail&logoColor=ff2a6d&labelColor=0d0221&color=ff2a6d" /></a>
 <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsjaiswalnetwork&label=PROFILE%20VIEWS&labelColor=%230d0221&countColor=%23ff2a6d&style=for-the-badge" />
 
@@ -149,8 +150,9 @@
 <img src="assets/footer.svg" width="100%" alt="Ask me about: MCP servers · AI audits · KPI dashboards · no-code automation" />
 
 <div align="center">
+<a href="https://sjaiswalnetwork.github.io"><img src="https://img.shields.io/badge/Visit_my_website_↗-0d0221?style=for-the-badge&logo=googlechrome&logoColor=f9f002" height="40" /></a>
 <a href="https://www.linkedin.com/in/sj969/"><img src="https://img.shields.io/badge/Let%27s_connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="40" /></a>
 <a href="mailto:sjaiswalnetwork@gmail.com"><img src="https://img.shields.io/badge/Email_me-0d0221?style=for-the-badge&logo=gmail&logoColor=ff2a6d" height="40" /></a>
 </div>
 
-<p align="center"><sub><a href="UPDATE-GUIDE.md">📘 How to update this profile</a></sub></p>
+<p align="center"><sub><a href="UPDATE-GUIDE.md">📘 How to update this profile &amp; website</a></sub></p>
