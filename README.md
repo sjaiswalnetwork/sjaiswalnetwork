@@ -10,11 +10,9 @@
 
 </div>
 
-<img src="assets/h08.svg" width="100%" alt="08 Neon arcade" />
+<a href="https://www.linkedin.com/in/sj969/"><img src="assets/linkedin.svg" width="100%" alt="Connect with Shashank Jaiswal on LinkedIn" /></a>
 
-<a href="https://sjaiswalnetwork.github.io/neon-runner/"><img src="assets/arcade.svg" width="100%" alt="Play Neon Runner in your browser" /></a>
-
-<img src="assets/h01.svg" width="100%" alt="01 About me" />
+<img src="assets/h01.svg" width="100%" alt="01 About" />
 
 ```diff
 + STRATEGY & OPERATIONS WORK — WITH AI
@@ -34,7 +32,11 @@
 
 <img src="assets/impact.svg" width="100%" alt="900 calls/day audited in 1h40m (was 6–7h) · 6x WhatsApp reach in 8 days, 78% read rate · ₹1.36 crore stock allocated in 3 weeks · ~10s per lookup (was ~15 min), 2,856 records · 13 auto WhatsApp templates, ERP to dispatch" />
 
-<img src="assets/h03.svg" width="100%" alt="03 Projects" />
+<img src="assets/h03.svg" width="100%" alt="03 Experience" />
+
+<a href="https://www.linkedin.com/in/sj969/details/experience/"><img src="assets/experience.svg" width="100%" alt="Experience timeline: AI Analyst (2026–now), AI & Business Analytics Associate (2021–2026), Programme leadership for Government of India & IEEE (2023–2025), Business Strategy & Operations Manager (2017–2021), MBA IIIT Allahabad" /></a>
+
+<img src="assets/h04.svg" width="100%" alt="04 Projects" />
 
 <div align="center">
 <a href="https://github.com/sjaiswalnetwork/tally-mcp"><img src="assets/p01.svg" width="49%" alt="tally-mcp" /></a>
@@ -50,7 +52,7 @@
 <sub><code>LIVE ↗</code> <a href="https://sjaiswalnetwork.github.io/screen-time-tracker/">screen-time-tracker</a> · <a href="https://sjaiswalnetwork.github.io/claude-pulse/">claude-pulse</a> · <a href="https://sjaiswalnetwork.github.io/excuse-generator/">excuse-generator</a></sub>
 </div>
 
-<img src="assets/h04.svg" width="100%" alt="04 Toolkit" />
+<img src="assets/h05.svg" width="100%" alt="05 Toolkit" />
 
 <div align="center">
 
@@ -86,6 +88,17 @@
 <img src="https://img.shields.io/badge/Interakt_WhatsApp_API-0d0221?style=for-the-badge&logo=whatsapp&logoColor=05d9e8&labelColor=0d0221" />
 </p>
 
+**`// BUSINESS ANALYSIS`**
+<p>
+<img src="https://img.shields.io/badge/Business_Analysis-0d0221?style=for-the-badge&labelColor=0d0221" />
+<img src="https://img.shields.io/badge/Requirements_Gathering-0d0221?style=for-the-badge&labelColor=0d0221" />
+<img src="https://img.shields.io/badge/Process_Mapping-0d0221?style=for-the-badge&labelColor=0d0221" />
+<img src="https://img.shields.io/badge/UAT-0d0221?style=for-the-badge&labelColor=0d0221" />
+<img src="https://img.shields.io/badge/Go--to--Market_Strategy-0d0221?style=for-the-badge&labelColor=0d0221" />
+<img src="https://img.shields.io/badge/Solution_Architecture-0d0221?style=for-the-badge&labelColor=0d0221" />
+<img src="https://img.shields.io/badge/Agentic_Workflows-0d0221?style=for-the-badge&labelColor=0d0221" />
+</p>
+
 **`// BUILD`**
 <p>
 <img src="https://img.shields.io/badge/JavaScript-0d0221?style=for-the-badge&logo=javascript&logoColor=f9f002&labelColor=0d0221" />
@@ -97,15 +110,17 @@
 
 </div>
 
-<img src="assets/h05.svg" width="100%" alt="05 Certifications" />
+<img src="assets/h06.svg" width="100%" alt="06 Credentials" />
 
-| Issuer | Courses |
+| Issuer | Credential |
 |---|---|
+| 🏆 **Ministry of MSME, Govt. of India** (2025) | Certificate of Appreciation: Primary Coordinator, A-ESDP national programme at Kumbh Mela 2025 |
 | 🟣 **Anthropic Claude Academy** (Sep 2026) | Building with the Claude API · MCP: Advanced Topics · Intro to MCP · Claude Code in Action · Claude Code 101 · Claude Platform 101 · Intro to Claude Cowork · Claude 101 |
 | 🔵 **LinkedIn Learning** | What Is Generative AI? (Microsoft × LinkedIn) · Generative AI & Workplace Transformation · Project Management Power Moves |
 | 🟡 **AI Business Partners** | AI-Ready Business Leader (May 2026) |
+| 🎓 **IIIT Allahabad** (2025) | MBA, Marketing & IT |
 
-<img src="assets/h06.svg" width="100%" alt="06 GitHub telemetry" />
+<img src="assets/h07.svg" width="100%" alt="07 GitHub activity" />
 
 <img src="assets/now.svg" width="100%" alt="Live feed: latest commits and repos (auto-updated every 6 hours)" />
 
@@ -119,5 +134,14 @@
 <img width="100%" src="https://raw.githubusercontent.com/sjaiswalnetwork/sjaiswalnetwork/output/snake-neon.svg" alt="Neon snake eating the contribution grid" />
 </div>
 
+<img src="assets/h08.svg" width="100%" alt="08 Arcade" />
+
+<a href="https://sjaiswalnetwork.github.io/neon-runner/"><img src="assets/arcade.svg" width="100%" alt="Play Neon Runner in your browser" /></a>
+
 <br/>
 <img src="assets/footer.svg" width="100%" alt="Ask me about: MCP servers · AI audits · KPI dashboards · no-code automation" />
+
+<div align="center">
+<a href="https://www.linkedin.com/in/sj969/"><img src="https://img.shields.io/badge/Let%27s_connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="40" /></a>
+<a href="mailto:sjaiswalnetwork@gmail.com"><img src="https://img.shields.io/badge/Email_me-0d0221?style=for-the-badge&logo=gmail&logoColor=ff2a6d" height="40" /></a>
+</div>
