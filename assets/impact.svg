@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="206" viewBox="0 0 1200 206">
+<defs><filter id="g" x="-20%" y="-50%" width="140%" height="200%">
+<feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><filter id="gs" x="-20%" y="-50%" width="140%" height="200%">
+<feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<style>.m{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:900} .r{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:700}
+.card{animation:in .9s ease-out both} @keyframes in{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.num{animation:fl 4s infinite} @keyframes fl{0%,46%,50%,100%{opacity:1}48%{opacity:.3}}
+</style>
+<g class="card" style="animation-delay:0.0s">
+<path d="M2 18 L18 2 H222 V186 L206 202 H2 Z" fill="#0d0120" stroke="#05d9e8" stroke-width="2" filter="url(#gs)"/>
+<rect x="18" y="2" width="60" height="4" fill="#05d9e8"/>
+<text x="112.0" y="82" text-anchor="middle" class="m num" font-size="40" fill="#05d9e8" filter="url(#g)" style="animation-delay:0.0s">900</text>
+<line x1="30" y1="104" x2="194" y2="104" stroke="#05d9e8" stroke-opacity=".5" stroke-dasharray="4 4"/>
+<text x="112.0" y="130" text-anchor="middle" class="m" font-size="14" fill="#fff" letter-spacing="1.5">CALLS / DAY</text>
+<text x="112.0" y="154" text-anchor="middle" class="r" font-size="13" fill="#d1c6ff">AUDITED IN 1H 40M</text>
+<text x="112.0" y="174" text-anchor="middle" class="r" font-size="13" fill="#05d9e8" opacity=".85">WAS 6–7 HOURS</text>
+<text x="212" y="196" text-anchor="end" class="r" font-size="10" fill="#05d9e8" opacity=".6">KPI_01</text>
+</g><g class="card" style="animation-delay:0.18s">
+<path d="M246 18 L262 2 H466 V186 L450 202 H246 Z" fill="#0d0120" stroke="#ff2a6d" stroke-width="2" filter="url(#gs)"/>
+<rect x="262" y="2" width="60" height="4" fill="#ff2a6d"/>
+<text x="356.0" y="82" text-anchor="middle" class="m num" font-size="40" fill="#ff2a6d" filter="url(#g)" style="animation-delay:0.6s">6×</text>
+<line x1="274" y1="104" x2="438" y2="104" stroke="#ff2a6d" stroke-opacity=".5" stroke-dasharray="4 4"/>
+<text x="356.0" y="130" text-anchor="middle" class="m" font-size="14" fill="#fff" letter-spacing="1.5">WHATSAPP REACH</text>
+<text x="356.0" y="154" text-anchor="middle" class="r" font-size="13" fill="#d1c6ff">IN 8 DAYS</text>
+<text x="356.0" y="174" text-anchor="middle" class="r" font-size="13" fill="#ff2a6d" opacity=".85">78% READ RATE</text>
+<text x="456" y="196" text-anchor="end" class="r" font-size="10" fill="#ff2a6d" opacity=".6">KPI_02</text>
+</g><g class="card" style="animation-delay:0.36s">
+<path d="M490 18 L506 2 H710 V186 L694 202 H490 Z" fill="#0d0120" stroke="#f9f002" stroke-width="2" filter="url(#gs)"/>
+<rect x="506" y="2" width="60" height="4" fill="#f9f002"/>
+<text x="600.0" y="82" text-anchor="middle" class="m num" font-size="34" fill="#f9f002" filter="url(#g)" style="animation-delay:1.2s">₹1.36Cr</text>
+<line x1="518" y1="104" x2="682" y2="104" stroke="#f9f002" stroke-opacity=".5" stroke-dasharray="4 4"/>
+<text x="600.0" y="130" text-anchor="middle" class="m" font-size="14" fill="#fff" letter-spacing="1.5">STOCK ALLOCATED</text>
+<text x="600.0" y="154" text-anchor="middle" class="r" font-size="13" fill="#d1c6ff">IN 3 WEEKS</text>
+<text x="600.0" y="174" text-anchor="middle" class="r" font-size="13" fill="#f9f002" opacity=".85">FG DASHBOARD</text>
+<text x="700" y="196" text-anchor="end" class="r" font-size="10" fill="#f9f002" opacity=".6">KPI_03</text>
+</g><g class="card" style="animation-delay:0.54s">
+<path d="M734 18 L750 2 H954 V186 L938 202 H734 Z" fill="#0d0120" stroke="#b967ff" stroke-width="2" filter="url(#gs)"/>
+<rect x="750" y="2" width="60" height="4" fill="#b967ff"/>
+<text x="844.0" y="82" text-anchor="middle" class="m num" font-size="40" fill="#b967ff" filter="url(#g)" style="animation-delay:1.7999999999999998s">~10s</text>
+<line x1="762" y1="104" x2="926" y2="104" stroke="#b967ff" stroke-opacity=".5" stroke-dasharray="4 4"/>
+<text x="844.0" y="130" text-anchor="middle" class="m" font-size="14" fill="#fff" letter-spacing="1.5">PER LOOKUP</text>
+<text x="844.0" y="154" text-anchor="middle" class="r" font-size="13" fill="#d1c6ff">WAS ~15 MIN</text>
+<text x="844.0" y="174" text-anchor="middle" class="r" font-size="13" fill="#b967ff" opacity=".85">2,856 RECORDS</text>
+<text x="944" y="196" text-anchor="end" class="r" font-size="10" fill="#b967ff" opacity=".6">KPI_04</text>
+</g><g class="card" style="animation-delay:0.72s">
+<path d="M978 18 L994 2 H1198 V186 L1182 202 H978 Z" fill="#0d0120" stroke="#05d9e8" stroke-width="2" filter="url(#gs)"/>
+<rect x="994" y="2" width="60" height="4" fill="#05d9e8"/>
+<text x="1088.0" y="82" text-anchor="middle" class="m num" font-size="40" fill="#05d9e8" filter="url(#g)" style="animation-delay:2.4s">13</text>
+<line x1="1006" y1="104" x2="1170" y2="104" stroke="#05d9e8" stroke-opacity=".5" stroke-dasharray="4 4"/>
+<text x="1088.0" y="130" text-anchor="middle" class="m" font-size="14" fill="#fff" letter-spacing="1.5">AUTO TEMPLATES</text>
+<text x="1088.0" y="154" text-anchor="middle" class="r" font-size="13" fill="#d1c6ff">ERP → WHATSAPP</text>
+<text x="1088.0" y="174" text-anchor="middle" class="r" font-size="13" fill="#05d9e8" opacity=".85">ORDER → DISPATCH</text>
+<text x="1188" y="196" text-anchor="end" class="r" font-size="10" fill="#05d9e8" opacity=".6">KPI_05</text>
+</g>
+</svg>

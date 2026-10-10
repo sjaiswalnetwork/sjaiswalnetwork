@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150">
+<defs><filter id="g" x="-20%" y="-50%" width="140%" height="200%">
+<feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="w" x1="0" x2="1"><stop offset="0" stop-color="#05d9e8"/><stop offset=".5" stop-color="#ff2a6d"/><stop offset="1" stop-color="#b967ff"/></linearGradient></defs>
+<style>.m{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:900}
+.wv{animation:mv 6s linear infinite} @keyframes mv{from{transform:translateX(0)}to{transform:translateX(-400px)}}
+.blink{animation:bk 1s infinite steps(1)} @keyframes bk{50%{opacity:0}}
+</style>
+<rect width="1200" height="150" rx="10" fill="#0a0014"/>
+<g class="wv" fill="none" stroke-width="2.5" filter="url(#g)">
+<path stroke="url(#w)" d="M0 40 q100 -30 200 0 t200 0 M400 40 q100 -30 200 0 t200 0 M800 40 q100 -30 200 0 t200 0 M1200 40 q100 -30 200 0 t200 0 M1600 40 q100 -30 200 0 t200 0 "/>
+<path stroke="#ff2a6d" stroke-opacity=".6" d="M0 40 q100 30 200 0 t200 0 M400 40 q100 30 200 0 t200 0 M800 40 q100 30 200 0 t200 0 M1200 40 q100 30 200 0 t200 0 M1600 40 q100 30 200 0 t200 0 "/>
+</g>
+<text x="600" y="94" text-anchor="middle" class="m" font-size="18" letter-spacing="3" fill="#fff" filter="url(#g)">ASK ME ABOUT: <tspan fill="#05d9e8">MCP SERVERS</tspan> · <tspan fill="#ff2a6d">AI AUDITS</tspan> · <tspan fill="#f9f002">KPI DASHBOARDS</tspan> · <tspan fill="#b967ff">NO-CODE AUTOMATION</tspan></text>
+<text x="600" y="128" text-anchor="middle" class="m" font-size="12" letter-spacing="4" fill="#b967ff">// END OF TRANSMISSION <tspan class="blink" fill="#f9f002">█</tspan></text>
+</svg>
