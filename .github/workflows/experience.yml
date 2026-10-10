@@ -1,4 +1,4 @@
-name: experience-timeline
+name: profile-sync
 
 # Redraws the Experience picture whenever you
 #   1) edit data/experience.yml, or
@@ -11,6 +11,8 @@ on:
       - "data/experience.yml"
       - "linkedin/**"
       - "scripts/experience.py"
+      - "data/credentials.yml"
+      - "scripts/credentials.py"
   workflow_dispatch:
 
 permissions:
@@ -31,20 +33,24 @@ jobs:
       - run: pip install -q pyyaml
       - name: Import LinkedIn file if one was uploaded
         run: |
-          f=$(ls -t linkedin/*.csv linkedin/*.zip linkedin/*.CSV linkedin/*.ZIP 2>/dev/null | head -1 || true)
-          if [ -n "$f" ]; then
+          shopt -s nullglob nocaseglob
+          files=(linkedin/*.csv linkedin/*.zip)
+          for f in "${files[@]}"; do
             echo "Importing $f"
             python scripts/experience.py --import "$f"
-            git rm -q --cached linkedin/*.csv linkedin/*.zip linkedin/*.CSV linkedin/*.ZIP 2>/dev/null || true
-            rm -f linkedin/*.csv linkedin/*.zip linkedin/*.CSV linkedin/*.ZIP
-          else
-            python scripts/experience.py
+            python scripts/credentials.py --import "$f"
+          done
+          if [ ${#files[@]} -gt 0 ]; then
+            git rm -q --cached "${files[@]}" || true
+            rm -f "${files[@]}"
           fi
+          python scripts/experience.py
+          python scripts/credentials.py
       - name: Save
         run: |
           git config user.name "neon-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data/experience.yml assets/experience.svg linkedin
+          git add -A data assets/experience.svg assets/credentials.svg linkedin
           git diff --cached --quiet && exit 0
           git commit -m "experience: redraw timeline [skip ci]"
           for i in 1 2 3; do git pull --rebase -q && git push && break; sleep 3; done
