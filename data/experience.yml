@@ -1,0 +1,60 @@
+# ─────────────────────────────────────────────────────────────
+#  YOUR EXPERIENCE TIMELINE  (edit this, click "Commit changes")
+#  The picture on your GitHub profile redraws itself in ~1 minute.
+#
+#  Rules:  keep the spaces at the start of lines as they are.
+#          put text in "quotes".  Newest job goes on top.
+# ─────────────────────────────────────────────────────────────
+
+jobs:
+  - when: "MAY 2026 — NOW"
+    title: "AI Analyst · Business Transformation & Intelligent Automation"
+    where: "Manufacturing · Noida"
+    points:
+      - "Company-wide AI & business-analysis mandate across sales, marketing, finance and ops"
+      - "Built MCP servers, AI call & chat audits, ERP → WhatsApp automation, 22-KPI scorecard"
+      - "Runo CRM Super Admin for an 18-person team; scheduled AI agents for MIS & CSI reports"
+
+  - when: "2021 — 2026"
+    title: "AI & Business Analytics Associate · Business Associate"
+    where: "Manufacturing · Varanasi"
+    points:
+      - "AI-assisted demand forecasting and inventory optimisation to cut stock-outs"
+      - "Sales funnel & AI lead scoring with drop-off analysis across 20+ deals a quarter"
+      - "Automated recurring sales & distribution dashboards for leadership"
+
+  - when: "2023 — 2025"
+    title: "Programme Leadership · Government of India & IEEE"
+    where: "Prayagraj"
+    points:
+      - "Primary Coordinator, A-ESDP (Ministry of MSME) at Kumbh Mela 2025 · Certificate of Appreciation"
+      - "Event Operations Lead, ASMITA Inter-IIIT Sports Meet (Ministry of Youth Affairs & Sports)"
+      - "Lead Organiser, IEEE WIE International Leadership Summit · 120+ attendees, zero escalations"
+
+  - when: "2017 — 2021"
+    title: "Business Strategy & Operations Manager"
+    where: "B2B Distribution · 9 principal brands"
+    points:
+      - "Go-to-market strategy for 9 principal brands across institutional and retail accounts"
+      - "Digitised 80–85% of transaction workflows on MARG ERP; built a sales analytics tracker"
+
+education:
+  - when: "EDUCATION"
+    title: "MBA, Marketing & IT · IIIT Allahabad (2025)"
+    where: "B.Com · MGKVP (2021)"
+    points:
+      - "Thesis: consumer behaviour & digital product adoption (SEM / SmartPLS)"
+
+# ── Used only when you upload a LinkedIn data file ──────────
+linkedin_import:
+  # Company names are never shown. Each company is shown as this label instead.
+  company_labels:
+    "Bajaj Formulations": "Manufacturing · Noida"
+    "R.P. Health Remedies Pvt Ltd.": "Manufacturing · Varanasi"
+    "R.P. Health Remedies Pvt. Ltd.": "Manufacturing · Varanasi"
+    "V.K. Medical Agencies": "B2B Distribution"
+  default_label: "Manufacturing"
+  # Any bullet point containing one of these words is skipped.
+  hide_words: ["pharma", "medical", "medicine", "cipla", "abbott", "lupin", "mankind", "bajaj", "drug"]
+  max_jobs: 6
+  max_points: 3
