@@ -24,8 +24,10 @@ def read_positions(path):
         with zipfile.ZipFile(path) as z:
             name = next((n for n in z.namelist() if n.lower().endswith("positions.csv")), None)
             if not name:
-                sys.exit("No Positions.csv inside the zip. Use LinkedIn > Settings > Data privacy > Get a copy of your data.")
+                return None
             text = z.read(name).decode("utf-8-sig")
+    elif "position" not in os.path.basename(path).lower():
+        return None
     else:
         text = open(path, encoding="utf-8-sig").read()
     # LinkedIn sometimes puts notes above the header row
@@ -72,6 +74,8 @@ def import_linkedin(path, data):
     labels, hide = cfg.get("company_labels", {}), cfg.get("hide_words", [])
     default = cfg.get("default_label", "")
     rows = read_positions(path)
+    if rows is None:
+        return None
     jobs, short = [], []
     for r in rows:
         a, b = parse_date(r.get("Started On")), parse_date(r.get("Finished On"))
@@ -143,7 +147,9 @@ def render(data):
 if __name__ == "__main__":
     data = yaml.safe_load(open(DATA, encoding="utf-8"))
     if "--import" in sys.argv:
-        data = import_linkedin(sys.argv[sys.argv.index("--import") + 1], data)
-        save_yaml(data)
-        print("imported LinkedIn positions into", DATA)
+        new = import_linkedin(sys.argv[sys.argv.index("--import") + 1], data)
+        if new is not None:
+            data = new
+            save_yaml(data)
+            print("imported LinkedIn positions into", DATA)
     render(data)
