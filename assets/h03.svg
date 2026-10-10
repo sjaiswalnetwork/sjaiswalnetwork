@@ -6,6 +6,7 @@
 .dot{animation:d 1.2s infinite steps(1)} @keyframes d{50%{opacity:.1}}
 .run{animation:r 2.2s linear infinite} @keyframes r{from{transform:translateX(0)}to{transform:translateX(1100px)}}
 </style>
+<rect x="0" y="2" width="1200" height="60" rx="6" fill="#0a0014"/>
 <polygon points="0,8 74,8 86,20 86,46 74,56 0,56" fill="#b967ff" fill-opacity=".14" stroke="#b967ff" stroke-width="2" filter="url(#g)"/>
 <text x="43" y="40" class="m" font-size="22" text-anchor="middle" fill="#b967ff">03</text>
 <text x="104" y="40" class="m" font-size="28" letter-spacing="5" fill="#fff" filter="url(#g)">PROJECTS.EXE</text>
