@@ -14,7 +14,8 @@
 
 ```diff
 + STRATEGY & OPERATIONS WORK — WITH AI
-  4+ years across pharma manufacturing, distribution and B2B sales.
+  4+ years turning messy operations into automated, data-driven systems:
+  sales · finance · supply chain · customer experience.
   Map the process on the ground → find the root cause → pick the right-sized fix:
   process redesign · no-code automation · generative AI (LLMs, agents, MCP)
 ```
@@ -44,6 +45,34 @@
 
 <sub><code>LIVE ↗</code> <a href="https://sjaiswalnetwork.github.io/screen-time-tracker/">screen-time-tracker</a> · <a href="https://sjaiswalnetwork.github.io/claude-pulse/">claude-pulse</a> · <a href="https://sjaiswalnetwork.github.io/excuse-generator/">excuse-generator</a></sub>
 </div>
+
+<img src="assets/h07.svg" width="100%" alt="07 Play tic-tac-toe" />
+
+<!--TTT_START-->
+<div align="center">
+
+**`YOU = ✖ PINK` · `AI = ◯ CYAN` · click an empty cell → hit "Submit new issue" → the AI replies in ~30 s**
+
+<a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/issues/new?title=ttt%7Cmove%7C0&body=%F0%9F%8E%AE%20Just%20click%20%2A%2ASubmit%20new%20issue%2A%2A.%20The%20neon%20AI%20answers%20in%20about%2030%20seconds%2C%20then%20check%20the%20README.%0A%0A%28move%20to%20cell%200%29"><img src="assets/ttt/e0.svg" width="112" alt="Play cell 0" /></a><a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/issues/new?title=ttt%7Cmove%7C1&body=%F0%9F%8E%AE%20Just%20click%20%2A%2ASubmit%20new%20issue%2A%2A.%20The%20neon%20AI%20answers%20in%20about%2030%20seconds%2C%20then%20check%20the%20README.%0A%0A%28move%20to%20cell%201%29"><img src="assets/ttt/e1.svg" width="112" alt="Play cell 1" /></a><a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/issues/new?title=ttt%7Cmove%7C2&body=%F0%9F%8E%AE%20Just%20click%20%2A%2ASubmit%20new%20issue%2A%2A.%20The%20neon%20AI%20answers%20in%20about%2030%20seconds%2C%20then%20check%20the%20README.%0A%0A%28move%20to%20cell%202%29"><img src="assets/ttt/e2.svg" width="112" alt="Play cell 2" /></a><br/><a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/issues/new?title=ttt%7Cmove%7C3&body=%F0%9F%8E%AE%20Just%20click%20%2A%2ASubmit%20new%20issue%2A%2A.%20The%20neon%20AI%20answers%20in%20about%2030%20seconds%2C%20then%20check%20the%20README.%0A%0A%28move%20to%20cell%203%29"><img src="assets/ttt/e3.svg" width="112" alt="Play cell 3" /></a><a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/issues/new?title=ttt%7Cmove%7C4&body=%F0%9F%8E%AE%20Just%20click%20%2A%2ASubmit%20new%20issue%2A%2A.%20The%20neon%20AI%20answers%20in%20about%2030%20seconds%2C%20then%20check%20the%20README.%0A%0A%28move%20to%20cell%204%29"><img src="assets/ttt/e4.svg" width="112" alt="Play cell 4" /></a><a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/issues/new?title=ttt%7Cmove%7C5&body=%F0%9F%8E%AE%20Just%20click%20%2A%2ASubmit%20new%20issue%2A%2A.%20The%20neon%20AI%20answers%20in%20about%2030%20seconds%2C%20then%20check%20the%20README.%0A%0A%28move%20to%20cell%205%29"><img src="assets/ttt/e5.svg" width="112" alt="Play cell 5" /></a><br/><a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/issues/new?title=ttt%7Cmove%7C6&body=%F0%9F%8E%AE%20Just%20click%20%2A%2ASubmit%20new%20issue%2A%2A.%20The%20neon%20AI%20answers%20in%20about%2030%20seconds%2C%20then%20check%20the%20README.%0A%0A%28move%20to%20cell%206%29"><img src="assets/ttt/e6.svg" width="112" alt="Play cell 6" /></a><a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/issues/new?title=ttt%7Cmove%7C7&body=%F0%9F%8E%AE%20Just%20click%20%2A%2ASubmit%20new%20issue%2A%2A.%20The%20neon%20AI%20answers%20in%20about%2030%20seconds%2C%20then%20check%20the%20README.%0A%0A%28move%20to%20cell%207%29"><img src="assets/ttt/e7.svg" width="112" alt="Play cell 7" /></a><a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/issues/new?title=ttt%7Cmove%7C8&body=%F0%9F%8E%AE%20Just%20click%20%2A%2ASubmit%20new%20issue%2A%2A.%20The%20neon%20AI%20answers%20in%20about%2030%20seconds%2C%20then%20check%20the%20README.%0A%0A%28move%20to%20cell%208%29"><img src="assets/ttt/e8.svg" width="112" alt="Play cell 8" /></a>
+
+<code>▶ YOUR MOVE, HUMAN — pick a glowing cell</code>
+
+| 🧑 HUMANS | 🤖 AI | 🤝 DRAWS |
+|:---:|:---:|:---:|
+| **0** | **0** | **0** |
+
+<sub>🏆 Most moves: nobody yet · <a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/issues/new?title=ttt%7Cnew&body=%F0%9F%8E%AE%20Just%20click%20%2A%2ASubmit%20new%20issue%2A%2A.%20The%20neon%20AI%20answers%20in%20about%2030%20seconds%2C%20then%20check%20the%20README.%0A%0A%28reset%20board%29">↻ reset board</a></sub>
+
+<details><summary><sub>recent moves</sub></summary>
+<table><tr><th>time (UTC)</th><th>player</th><th>move</th></tr><tr><td colspan=3>no moves yet — be the first</td></tr></table>
+</details>
+
+</div>
+<!--TTT_END-->
+
+<img src="assets/h08.svg" width="100%" alt="08 Neon arcade" />
+
+<a href="https://sjaiswalnetwork.github.io/neon-runner/"><img src="assets/arcade.svg" width="100%" alt="Play Neon Runner in your browser" /></a>
 
 <img src="assets/h04.svg" width="100%" alt="04 Toolkit" />
 
