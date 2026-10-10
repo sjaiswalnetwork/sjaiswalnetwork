@@ -39,6 +39,7 @@
 <div align="center">
 <a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/edit/main/data/experience.yml"><img src="https://img.shields.io/badge/✏️_Update_experience-0d0221?style=for-the-badge&labelColor=0d0221&color=0d0221" /></a>
 <a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/tree/main/linkedin"><img src="https://img.shields.io/badge/↻_Sync_from_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="UPDATE-GUIDE.md"><img src="https://img.shields.io/badge/📘_How_to_update-0d0221?style=for-the-badge&labelColor=0d0221&color=0d0221" /></a>
 <a href="https://www.linkedin.com/in/sj969/details/experience/"><img src="https://img.shields.io/badge/Full_experience_on_LinkedIn_↗-0d0221?style=for-the-badge&logo=linkedin&logoColor=05d9e8" /></a>
 </div>
 
@@ -118,13 +119,13 @@
 
 <img src="assets/h06.svg" width="100%" alt="06 Credentials" />
 
-| Issuer | Credential |
-|---|---|
-| 🏆 **Ministry of MSME, Govt. of India** (2025) | Certificate of Appreciation: Primary Coordinator, A-ESDP national programme at Kumbh Mela 2025 |
-| 🟣 **Anthropic Claude Academy** (Sep 2026) | Building with the Claude API · MCP: Advanced Topics · Intro to MCP · Claude Code in Action · Claude Code 101 · Claude Platform 101 · Intro to Claude Cowork · Claude 101 |
-| 🔵 **LinkedIn Learning** | What Is Generative AI? (Microsoft × LinkedIn) · Generative AI & Workplace Transformation · Project Management Power Moves |
-| 🟡 **AI Business Partners** | AI-Ready Business Leader (May 2026) |
-| 🎓 **IIIT Allahabad** (2025) | MBA, Marketing & IT |
+<a href="https://www.linkedin.com/in/sj969/details/certifications/"><img src="assets/credentials.svg" width="100%" alt="12 certifications: 8 from Anthropic Claude Academy, 3 LinkedIn Learning, 1 AI Business Partners; Certificate of Appreciation from Ministry of MSME, Government of India" /></a>
+
+<div align="center">
+<a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/edit/main/data/credentials.yml"><img src="https://img.shields.io/badge/✏️_Update_certifications-0d0221?style=for-the-badge&labelColor=0d0221&color=0d0221" /></a>
+<a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/tree/main/linkedin"><img src="https://img.shields.io/badge/↻_Sync_from_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/sj969/details/certifications/"><img src="https://img.shields.io/badge/All_certificates_on_LinkedIn_↗-0d0221?style=for-the-badge&logo=linkedin&logoColor=05d9e8" /></a>
+</div>
 
 <img src="assets/h07.svg" width="100%" alt="07 GitHub activity" />
 
@@ -151,3 +152,5 @@
 <a href="https://www.linkedin.com/in/sj969/"><img src="https://img.shields.io/badge/Let%27s_connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="40" /></a>
 <a href="mailto:sjaiswalnetwork@gmail.com"><img src="https://img.shields.io/badge/Email_me-0d0221?style=for-the-badge&logo=gmail&logoColor=ff2a6d" height="40" /></a>
 </div>
+
+<p align="center"><sub><a href="UPDATE-GUIDE.md">📘 How to update this profile</a></sub></p>
