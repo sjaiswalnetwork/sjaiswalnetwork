@@ -1,0 +1,76 @@
+# ─────────────────────────────────────────────────────────────
+#  YOUR WEBSITE TEXT  (sjaiswalnetwork.github.io)
+#  Edit → "Commit changes". The website shows the new text within ~5 minutes.
+#  Keep the spaces at the start of lines. Put text in "quotes".
+# ─────────────────────────────────────────────────────────────
+
+name: "Shashank Jaiswal"
+short: "Sj"
+email: "sjaiswalnetwork@gmail.com"
+linkedin: "https://www.linkedin.com/in/sj969/"
+github: "https://github.com/sjaiswalnetwork"
+location: "Noida, India"
+open_to_badge: "Open to AI, Analytics & Automation roles · On-site · Hybrid · Remote"
+open_to:
+  - "AI Analyst"
+  - "Business Analyst"
+  - "AI Strategy & Transformation"
+  - "Automation & Process Excellence"
+  - "Operations & GTM Analytics"
+
+headline: "I turn messy operations into automated, data-driven systems."
+intro: "Strategy and operations work with AI. I map the process on the ground, find the root cause, then pick the right-sized fix: process redesign, no-code automation, or generative AI (LLMs, agents, MCP)."
+
+counters:
+  - { value: 900, suffix: "", label: "Calls audited per day by AI" }
+  - { value: 35, suffix: "+", label: "AI & automation initiatives" }
+  - { value: 22, suffix: "", label: "KPIs on a live scorecard" }
+  - { value: 12, suffix: "", label: "Certifications" }
+
+about: >-
+  I'm an AI Analyst working company-wide across sales, marketing, finance and operations in manufacturing.
+  I build what the team actually uses: MCP servers that let leadership ask live business data questions in plain
+  English, AI call and chat audits, ERP-to-WhatsApp automation, and live KPI dashboards. Before AI, I ran go-to-market
+  and operations for a multi-brand B2B distributor and led national Government of India programmes.
+quote: "Right-sized fixes, backed by clean data."
+
+facts:
+  - { icon: "📍", label: "Location", value: "Noida, India" }
+  - { icon: "💼", label: "Experience", value: "Since 2017" }
+  - { icon: "🏭", label: "Industries", value: "Manufacturing · B2B Distribution · Govt. programmes" }
+  - { icon: "🎓", label: "Education", value: "MBA (Marketing & IT), IIIT Allahabad · B.Com" }
+  - { icon: "🗣️", label: "Languages", value: "Hindi · English" }
+  - { icon: "✉️", label: "Email", value: "sjaiswalnetwork@gmail.com" }
+
+impact:
+  - { big: "6–7h → 1h40m", text: "Daily review time for 900 calls with an AI call-audit pipeline (Sarvam AI + Claude)" }
+  - { big: "6×", text: "WhatsApp reach in 8 days at 100% delivery and 78% read rate" }
+  - { big: "₹1.36 Cr", text: "Finished-goods stock allocated within 3 weeks via a live dashboard" }
+  - { big: "15 min → 10 s", text: "Per regulatory lookup across 2,856 records, saving 4–5 staff-hours a day" }
+  - { big: "13", text: "Auto-notify WhatsApp templates from order to dispatch (ERP → Interakt API)" }
+  - { big: "2,672", text: "Follow-ups logged and 499 closures tracked on a follow-up tracker" }
+
+projects:
+  - { icon: "🧾", name: "tally-mcp", tag: "MCP · JavaScript", text: "One-click, read-only TallyPrime connector for Claude Desktop. Ask your accounts in plain English; data stays local.", repo: "https://github.com/sjaiswalnetwork/tally-mcp" }
+  - { icon: "⏱️", name: "Screen Time Tracker", tag: "C# · Windows", text: "Free, private Windows app: screen time per app and site, PDF reports, focus mode.", repo: "https://github.com/sjaiswalnetwork/screen-time-tracker", live: "https://sjaiswalnetwork.github.io/screen-time-tracker/" }
+  - { icon: "📊", name: "Claude Pulse", tag: "HTML · JS", text: "See how you use Claude: tokens, models, cost at API rates, plus coaching. 100% in-browser.", repo: "https://github.com/sjaiswalnetwork/claude-pulse", live: "https://sjaiswalnetwork.github.io/claude-pulse/" }
+  - { icon: "🧸", name: "SJ Buddy", tag: "C# · Claude Code", text: "Desktop companion for Windows: ~4,000 lines of C#, 990 dialogue lines in Hindi, English & Hinglish.", repo: "https://github.com/sjaiswalnetwork/sj-buddy" }
+  - { icon: "🏎️", name: "Kart Arena", tag: "Node · Multiplayer", text: "Six-player online go-kart racing with an authoritative Node server and client-side prediction.", repo: "https://github.com/sjaiswalnetwork/kart-arena" }
+  - { icon: "🕵️", name: "Alibi", tag: "JavaScript", text: "Realistic, location-aware late excuses built from real weather and traffic.", repo: "https://github.com/sjaiswalnetwork/excuse-generator", live: "https://sjaiswalnetwork.github.io/excuse-generator/" }
+  - { icon: "🌆", name: "Neon Runner", tag: "Canvas game", text: "Cyberpunk synthwave runner that plays in your browser. Dodge, collect, survive the grid.", repo: "https://github.com/sjaiswalnetwork/neon-runner", live: "https://sjaiswalnetwork.github.io/neon-runner/" }
+
+achievements:
+  - { icon: "🏆", title: "Certificate of Appreciation", text: "Ministry of MSME, Govt. of India — Primary Coordinator, A-ESDP at Kumbh Mela 2025" }
+  - { icon: "🤖", title: "8× Anthropic Claude Academy", text: "Claude API, MCP (intro + advanced), Claude Code, Cowork, Platform 101" }
+  - { icon: "🔌", title: "Custom MCP servers in production", text: "Tally and Runo CRM — leadership queries live business data in plain English" }
+  - { icon: "🎤", title: "IEEE WIE Leadership Summit", text: "Lead Organiser — 120+ attendees and keynote speakers, zero escalations" }
+
+skills:
+  - group: "🤖 AI & Automation"
+    items: ["Claude & Claude Code", "Custom MCP servers", "AI agents & agentic workflows", "Prompt engineering", "Sarvam AI", "ChatGPT · Gemini"]
+  - group: "📊 Analytics & BI"
+    items: ["Power BI", "Advanced Excel", "Google Sheets & Apps Script", "Python · SQL · R", "SmartPLS / SEM", "Dashboards & KPI design"]
+  - group: "🧭 Business Analysis"
+    items: ["Requirements gathering", "Process mapping", "User acceptance testing", "Go-to-market strategy", "Solution architecture", "Digital transformation"]
+  - group: "🛠️ Systems I run"
+    items: ["Runo CRM (Super Admin)", "Tally", "Finaman ERP", "MARG ERP", "Interakt WhatsApp API", "GitHub Pages"]

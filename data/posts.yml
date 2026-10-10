@@ -1,0 +1,13 @@
+# ─────────────────────────────────────────────────────────────
+#  YOUR LINKEDIN POSTS shown on the website
+#  Two ways to update:
+#   1) Paste a post link below (on LinkedIn: ⋯ on the post → "Copy link to post").
+#   2) Upload "Shares.csv" from your LinkedIn data into the linkedin/ folder (see UPDATE-GUIDE.md).
+#  Newest first. The website shows the first 6.
+# ─────────────────────────────────────────────────────────────
+
+posts: []
+#  Example:
+#  - link: "https://www.linkedin.com/posts/sj969_..."
+#    date: "Oct 2026"
+#    text: "First line of the post as a preview"

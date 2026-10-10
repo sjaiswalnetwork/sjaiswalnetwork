@@ -1,0 +1,11 @@
+# ─────────────────────────────────────────────────────────────
+#  RECOMMENDATIONS you received on LinkedIn (shown on the website)
+#  Filled automatically when you upload Recommendations_Received.csv
+#  (inside LinkedIn's "Recommendations" download). You can also type them here.
+# ─────────────────────────────────────────────────────────────
+
+recommendations: []
+#  Example:
+#  - name: "Full Name"
+#    role: "Their title"
+#    text: "What they wrote"
