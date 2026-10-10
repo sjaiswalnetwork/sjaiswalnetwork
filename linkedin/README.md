@@ -1,10 +1,10 @@
-# ↻ Sync from LinkedIn (no AI, ~3 minutes)
+# ↻ Sync from LinkedIn (no AI)
 
-1. On LinkedIn: **Me → Settings & Privacy → Data privacy → Get a copy of your data**.
-2. Choose **"Want something in particular?"**, tick **only "Positions", "Certifications" and "Honors"**, click **Request archive**.
-   *(Do not download the full archive — it contains your messages and contacts.)*
-3. LinkedIn emails you a link (usually within 10 minutes). Download the small `.zip`.
-4. Come back to this folder and click **Add file → Upload files**, drop the `.zip` (or the `Positions.csv` inside it), click **Commit changes**.
-5. Wait ~1 minute. Your Experience timeline and Certifications on your profile redraw themselves and the uploaded file is removed automatically.
+Drop your LinkedIn files here. About 1 minute later your GitHub profile and website update, and the file is removed automatically.
 
-Company names are never shown — they're replaced with the labels in [`data/experience.yml`](../data/experience.yml) (`company_labels`). Bullet points mentioning hidden words (e.g. pharma) are skipped.
+| What | LinkedIn download | Upload here |
+|---|---|---|
+| Experience, certifications, awards, recommendations | Settings → Data privacy → Get a copy of your data → **"Want something in particular?"** → tick **Profile** + **Recommendations** | the small `.zip` |
+| Posts | **Larger data archive** → unzip on your computer | **only `Shares.csv`** (never the whole zip: it has your messages) |
+
+Full step-by-step: [UPDATE-GUIDE.md](../UPDATE-GUIDE.md)
