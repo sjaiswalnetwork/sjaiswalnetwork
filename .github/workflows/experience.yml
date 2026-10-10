@@ -13,6 +13,7 @@ on:
       - "scripts/experience.py"
       - "data/credentials.yml"
       - "scripts/credentials.py"
+      - "scripts/linkedin_extra.py"
   workflow_dispatch:
 
 permissions:
@@ -36,7 +37,12 @@ jobs:
           shopt -s nullglob nocaseglob
           files=(linkedin/*.csv linkedin/*.zip)
           for f in "${files[@]}"; do
+            if [[ "$f" == *.zip ]] && unzip -l "$f" | grep -qiE "messages\.csv|connections\.csv|email addresses\.csv|phonenumbers\.csv"; then
+              echo "::error::This is LinkedIn's FULL archive (it has messages/contacts). Not imported. Upload only the small files listed in UPDATE-GUIDE.md."
+              continue
+            fi
             echo "Importing $f"
+            python scripts/linkedin_extra.py "$f"
             python scripts/experience.py --import "$f"
             python scripts/credentials.py --import "$f"
           done
