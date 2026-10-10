@@ -13,12 +13,8 @@
 <text x="24" y="34" class="r" font-size="12" letter-spacing="3" fill="#05d9e8" opacity=".85">PRJ_05 :: MULTIPLAYER // RACE</text>
 <text x="566" y="34" text-anchor="end" class="r" font-size="12" letter-spacing="2" fill="#b967ff"><tspan class="blink">●</tspan> REPO</text>
 <g class="t" font-size="30" letter-spacing="2">
-<text x="24" y="74" fill="#05d9e8" opacity=".8" class="glA">kart-arena</text>
-<text x="24" y="74" fill="#ff2a6d" opacity=".8" class="glB">kart-arena</text>
-<text x="24" y="74" fill="#fff" filter="url(#g)" class="flick">kart-arena</text></g>
+<text x="24" y="74" fill="#fff">kart-arena</text></g>
 <text x="24" y="106" class="r" font-size="15" fill="#d1c6ff">Six-player online go-kart racing. Authoritative Node</text><text x="24" y="128" class="r" font-size="15" fill="#d1c6ff">server, client-side prediction.</text>
 <rect x="24" y="174" width="112" height="24" rx="3" fill="#05d9e8" fill-opacity=".14" stroke="#05d9e8" stroke-width="1"/><text x="80.0" y="191" text-anchor="middle" class="r" font-size="13" fill="#05d9e8">JavaScript</text><rect x="144" y="174" width="58" height="24" rx="3" fill="#05d9e8" fill-opacity=".14" stroke="#05d9e8" stroke-width="1"/><text x="173.0" y="191" text-anchor="middle" class="r" font-size="13" fill="#05d9e8">Node</text>
 <text x="564" y="191" text-anchor="end" class="t" font-size="14" letter-spacing="2" fill="#05d9e8" filter="url(#g)">ACCESS ▶</text>
-<rect class="gb" style="animation-delay:-1.2s;animation-duration:2.8s" x="405" y="126" width="69" height="3" fill="#05d9e8"/><rect class="gb" style="animation-delay:-0.1s;animation-duration:4.1s" x="296" y="208" width="45" height="5" fill="#f9f002"/><rect class="gb" style="animation-delay:-1.4s;animation-duration:3.0s" x="108" y="71" width="84" height="2" fill="#f9f002"/><rect class="gb" style="animation-delay:-4.0s;animation-duration:3.1s" x="317" y="78" width="190" height="7" fill="#05d9e8"/><rect class="gb" style="animation-delay:-4.2s;animation-duration:3.5s" x="397" y="133" width="93" height="4" fill="#ff2a6d"/>
-<path d="M2 22 L22 2 H588 V198 L568 218 H2 Z" fill="url(#scan)"/>
 </svg>

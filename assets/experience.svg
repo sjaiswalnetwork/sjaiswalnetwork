@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><filter id="g" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="ln" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05d9e8"/><stop offset=".5" stop-color="#ff2a6d"/><stop offset="1" stop-color="#b967ff"/></linearGradient></defs>
+<style>.m{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:700} .s{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+.in{animation:in .8s ease-out both} @keyframes in{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
+.pl{animation:pl 2s ease-in-out infinite} @keyframes pl{50%{opacity:.2}}
+.run{animation:run 4s linear infinite} @keyframes run{from{transform:translateY(0)}to{transform:translateY(640px)}}</style>
+<rect x="2" y="2" width="1196" height="696" rx="12" fill="#0a0014"/>
+<rect x="198" y="30" width="4" height="630" fill="url(#ln)" opacity=".55"/>
+<rect class="run" x="196" y="30" width="8" height="30" rx="4" fill="#fff" opacity=".8" filter="url(#g)"/>
+<g class="in" style="animation-delay:0.00s">
+<circle cx="200" cy="38" r="9" fill="#0a0014" stroke="#05d9e8" stroke-width="3" filter="url(#g)"/>
+<circle cx="200" cy="38" r="3.5" fill="#05d9e8" class="pl" style="animation-delay:0.0s"/>
+<text x="176" y="43" text-anchor="end" class="m" font-size="13" letter-spacing="1.5" fill="#05d9e8">MAY 2026 — NOW</text>
+<text x="226" y="44" class="s" font-weight="700" font-size="19" fill="#fff">AI Analyst · Business Transformation &amp; Intelligent Automation</text>
+<text x="226" y="68" class="m" font-size="13" letter-spacing="1" fill="#05d9e8" opacity=".9">Manufacturing · Noida</text>
+<text x="226" y="92" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#05d9e8">▸ </tspan>Company-wide AI &amp; business-analysis mandate across sales, marketing, finance and ops</text><text x="226" y="114" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#05d9e8">▸ </tspan>Built MCP servers, AI call &amp; chat audits, ERP → WhatsApp automation, 22-KPI scorecard</text><text x="226" y="136" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#05d9e8">▸ </tspan>Runo CRM Super Admin for an 18-person team; scheduled AI agents for MIS &amp; CSI reports</text>
+</g><g class="in" style="animation-delay:0.15s">
+<circle cx="200" cy="184" r="9" fill="#0a0014" stroke="#ff2a6d" stroke-width="3" filter="url(#g)"/>
+<circle cx="200" cy="184" r="3.5" fill="#ff2a6d" class="pl" style="animation-delay:0.3s"/>
+<text x="176" y="189" text-anchor="end" class="m" font-size="13" letter-spacing="1.5" fill="#ff2a6d">2021 — 2026</text>
+<text x="226" y="190" class="s" font-weight="700" font-size="19" fill="#fff">AI &amp; Business Analytics Associate · Business Associate</text>
+<text x="226" y="214" class="m" font-size="13" letter-spacing="1" fill="#ff2a6d" opacity=".9">Manufacturing · Varanasi</text>
+<text x="226" y="238" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#ff2a6d">▸ </tspan>AI-assisted demand forecasting and inventory optimisation to cut stock-outs</text><text x="226" y="260" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#ff2a6d">▸ </tspan>Sales funnel &amp; AI lead scoring with drop-off analysis across 20+ deals a quarter</text><text x="226" y="282" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#ff2a6d">▸ </tspan>Automated recurring sales &amp; distribution dashboards for leadership</text>
+</g><g class="in" style="animation-delay:0.30s">
+<circle cx="200" cy="330" r="9" fill="#0a0014" stroke="#f9f002" stroke-width="3" filter="url(#g)"/>
+<circle cx="200" cy="330" r="3.5" fill="#f9f002" class="pl" style="animation-delay:0.6s"/>
+<text x="176" y="335" text-anchor="end" class="m" font-size="13" letter-spacing="1.5" fill="#f9f002">2023 — 2025</text>
+<text x="226" y="336" class="s" font-weight="700" font-size="19" fill="#fff">Programme Leadership · Government of India &amp; IEEE</text>
+<text x="226" y="360" class="m" font-size="13" letter-spacing="1" fill="#f9f002" opacity=".9">Prayagraj</text>
+<text x="226" y="384" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#f9f002">▸ </tspan>Primary Coordinator, A-ESDP (Ministry of MSME) at Kumbh Mela 2025 · Certificate of Appreciation</text><text x="226" y="406" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#f9f002">▸ </tspan>Event Operations Lead, ASMITA Inter-IIIT Sports Meet (Ministry of Youth Affairs &amp; Sports)</text><text x="226" y="428" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#f9f002">▸ </tspan>Lead Organiser, IEEE WIE International Leadership Summit · 120+ attendees, zero escalations</text>
+</g><g class="in" style="animation-delay:0.45s">
+<circle cx="200" cy="476" r="9" fill="#0a0014" stroke="#b967ff" stroke-width="3" filter="url(#g)"/>
+<circle cx="200" cy="476" r="3.5" fill="#b967ff" class="pl" style="animation-delay:0.9s"/>
+<text x="176" y="481" text-anchor="end" class="m" font-size="13" letter-spacing="1.5" fill="#b967ff">2017 — 2021</text>
+<text x="226" y="482" class="s" font-weight="700" font-size="19" fill="#fff">Business Strategy &amp; Operations Manager</text>
+<text x="226" y="506" class="m" font-size="13" letter-spacing="1" fill="#b967ff" opacity=".9">B2B Distribution · 9 principal brands</text>
+<text x="226" y="530" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#b967ff">▸ </tspan>Go-to-market strategy for 9 principal brands across institutional and retail accounts</text><text x="226" y="552" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#b967ff">▸ </tspan>Digitised 80–85% of transaction workflows on MARG ERP; built a sales analytics tracker</text>
+</g><g class="in" style="animation-delay:0.60s">
+<circle cx="200" cy="600" r="9" fill="#0a0014" stroke="#05d9e8" stroke-width="3" filter="url(#g)"/>
+<circle cx="200" cy="600" r="3.5" fill="#05d9e8" class="pl" style="animation-delay:1.2s"/>
+<text x="176" y="605" text-anchor="end" class="m" font-size="13" letter-spacing="1.5" fill="#05d9e8">EDUCATION</text>
+<text x="226" y="606" class="s" font-weight="700" font-size="19" fill="#fff">MBA, Marketing &amp; IT · IIIT Allahabad (2025)</text>
+<text x="226" y="630" class="m" font-size="13" letter-spacing="1" fill="#05d9e8" opacity=".9">B.Com · MGKVP (2021)</text>
+<text x="226" y="654" class="s" font-size="15" fill="#d1c6ff"><tspan fill="#05d9e8">▸ </tspan>Thesis: consumer behaviour &amp; digital product adoption (SEM / SmartPLS)</text>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170">
+<defs><filter id="g" x="-20%" y="-40%" width="140%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="bd" x1="0" x2="1"><stop offset="0" stop-color="#05d9e8"/><stop offset=".5" stop-color="#0a66c2"/><stop offset="1" stop-color="#b967ff"/></linearGradient></defs>
+<style>.m{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:700} .s{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+.dash{stroke-dasharray:90 30;animation:da 6s linear infinite} @keyframes da{to{stroke-dashoffset:-240}}
+.pulse{animation:p 2.4s ease-in-out infinite} @keyframes p{50%{opacity:.6}}
+.dot{animation:d 1.6s ease-in-out infinite} @keyframes d{50%{opacity:.2}}</style>
+<rect x="2" y="2" width="1196" height="166" rx="12" fill="#0a0014"/>
+<rect x="2" y="2" width="1196" height="166" rx="12" fill="none" stroke="url(#bd)" stroke-width="2.5" class="dash" filter="url(#g)"/>
+<rect x="32" y="35" width="100" height="100" rx="14" fill="#0a66c2" filter="url(#g)"/>
+<text x="82" y="110" text-anchor="middle" class="s" font-weight="800" font-size="64" fill="#fff">in</text>
+<text x="160" y="62" class="s" font-weight="700" font-size="28" fill="#fff">Shashank Jaiswal (Sj)</text>
+<text x="160" y="92" class="s" font-size="17" fill="#d1c6ff">AI Analyst · AI Strategy · Business Analysis · GTM &amp; BI</text>
+<text x="160" y="126" class="m" font-size="13" letter-spacing="1.5"><tspan fill="#05d9e8">1.2K+ FOLLOWERS</tspan><tspan fill="#5a4f80">  ·  </tspan><tspan fill="#ff2a6d">500+ CONNECTIONS</tspan><tspan fill="#5a4f80">  ·  </tspan><tspan fill="#f9f002">8× ANTHROPIC ACADEMY CERTIFIED</tspan></text>
+<g class="pulse"><rect x="905" y="42" width="260" height="56" rx="8" fill="#0a66c2" filter="url(#g)"/>
+<text x="1035" y="78" text-anchor="middle" class="s" font-weight="700" font-size="21" fill="#fff">Connect on LinkedIn ↗</text></g>
+<text x="1035" y="126" text-anchor="middle" class="m" font-size="12" fill="#8fe9a8" letter-spacing="1"><tspan class="dot">●</tspan> OPEN TO OPPORTUNITIES</text>
+<text x="1035" y="146" text-anchor="middle" class="m" font-size="11" fill="#8a7fb0" letter-spacing="1">ON-SITE · HYBRID · REMOTE</text>
+</svg>

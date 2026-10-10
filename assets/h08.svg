@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="64" viewBox="0 0 1200 64">
 <defs><filter id="g" x="-20%" y="-50%" width="140%" height="200%">
-<feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#05d9e8"/><stop offset=".6" stop-color="#ff2a6d"/><stop offset="1" stop-color="#ff2a6d" stop-opacity="0"/></linearGradient></defs>
+<feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#f9f002"/><stop offset=".6" stop-color="#05d9e8"/><stop offset="1" stop-color="#05d9e8" stop-opacity="0"/></linearGradient></defs>
 <style>.m{font-family:'Courier New',Consolas,'DejaVu Sans Mono',monospace;font-weight:900}
 .bar{animation:b 2.8s cubic-bezier(.7,0,.3,1) infinite alternate;transform-origin:0 0} @keyframes b{from{transform:scaleX(.25)}to{transform:scaleX(1)}}
 .dot{animation:d 1.2s infinite steps(1)} @keyframes d{50%{opacity:.1}}
 .run{animation:r 2.2s linear infinite} @keyframes r{from{transform:translateX(0)}to{transform:translateX(1100px)}}
 </style>
 <rect x="0" y="2" width="1200" height="60" rx="6" fill="#0a0014"/>
-<polygon points="0,8 74,8 86,20 86,46 74,56 0,56" fill="#05d9e8" fill-opacity=".14" stroke="#05d9e8" stroke-width="2" filter="url(#g)"/>
-<text x="43" y="40" class="m" font-size="22" text-anchor="middle" fill="#05d9e8">▶</text>
-<text x="104" y="40" class="m" font-size="28" letter-spacing="5" fill="#fff" filter="url(#g)">PLAY: NEON_RUNNER  // CLICK TO START</text>
+<polygon points="0,8 74,8 86,20 86,46 74,56 0,56" fill="#f9f002" fill-opacity=".14" stroke="#f9f002" stroke-width="2" filter="url(#g)"/>
+<text x="43" y="40" class="m" font-size="22" text-anchor="middle" fill="#f9f002">08</text>
+<text x="104" y="40" class="m" font-size="28" letter-spacing="5" fill="#fff" filter="url(#g)">ARCADE</text>
 <rect class="bar" x="104" y="52" width="1080" height="3" fill="url(#l)" filter="url(#g)"/>
 <rect class="run" x="104" y="51" width="40" height="5" fill="#fff" opacity=".9" filter="url(#g)"/>
-<g class="m" font-size="12" fill="#ff2a6d" text-anchor="end" letter-spacing="2"><text x="1190" y="22">0x▶  ::  <tspan class="dot">▮</tspan>▮▮▯▯</text></g>
+<g class="m" font-size="12" fill="#05d9e8" text-anchor="end" letter-spacing="2"><text x="1190" y="22">0x08  ::  <tspan class="dot">▮</tspan>▮▮▯▯</text></g>
 </svg>

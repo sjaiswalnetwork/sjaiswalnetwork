@@ -13,12 +13,8 @@
 <text x="24" y="34" class="r" font-size="12" letter-spacing="3" fill="#f9f002" opacity=".85">PRJ_03 :: COMPANION // AI</text>
 <text x="566" y="34" text-anchor="end" class="r" font-size="12" letter-spacing="2" fill="#b967ff"><tspan class="blink">●</tspan> REPO</text>
 <g class="t" font-size="30" letter-spacing="2">
-<text x="24" y="74" fill="#05d9e8" opacity=".8" class="glA">sj-buddy</text>
-<text x="24" y="74" fill="#ff2a6d" opacity=".8" class="glB">sj-buddy</text>
-<text x="24" y="74" fill="#fff" filter="url(#g)" class="flick">sj-buddy</text></g>
+<text x="24" y="74" fill="#fff">sj-buddy</text></g>
 <text x="24" y="106" class="r" font-size="15" fill="#d1c6ff">Desktop toon companion for Windows. ~4,000 lines of</text><text x="24" y="128" class="r" font-size="15" fill="#d1c6ff">C#, 990 dialogue lines in Hindi, English &amp; Hinglish.</text>
 <rect x="24" y="174" width="40" height="24" rx="3" fill="#f9f002" fill-opacity=".14" stroke="#f9f002" stroke-width="1"/><text x="44.0" y="191" text-anchor="middle" class="r" font-size="13" fill="#f9f002">C#</text><rect x="72" y="174" width="121" height="24" rx="3" fill="#f9f002" fill-opacity=".14" stroke="#f9f002" stroke-width="1"/><text x="132.5" y="191" text-anchor="middle" class="r" font-size="13" fill="#f9f002">Claude Code</text>
 <text x="564" y="191" text-anchor="end" class="t" font-size="14" letter-spacing="2" fill="#f9f002" filter="url(#g)">ACCESS ▶</text>
-<rect class="gb" style="animation-delay:-4.8s;animation-duration:5.3s" x="57" y="27" width="51" height="7" fill="#ff2a6d"/><rect class="gb" style="animation-delay:-3.7s;animation-duration:4.5s" x="315" y="68" width="185" height="5" fill="#05d9e8"/><rect class="gb" style="animation-delay:-2.9s;animation-duration:3.0s" x="441" y="167" width="130" height="10" fill="#f9f002"/><rect class="gb" style="animation-delay:-2.7s;animation-duration:3.8s" x="274" y="13" width="37" height="7" fill="#b967ff"/><rect class="gb" style="animation-delay:-4.7s;animation-duration:5.2s" x="433" y="138" width="72" height="10" fill="#ff2a6d"/>
-<path d="M2 22 L22 2 H588 V198 L568 218 H2 Z" fill="url(#scan)"/>
 </svg>
