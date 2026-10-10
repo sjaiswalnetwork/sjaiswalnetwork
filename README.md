@@ -111,8 +111,6 @@
 <br/>
 <img src="https://streak-stats.demolab.com?user=sjaiswalnetwork&background=0A0014&border=b967ff&ring=ff2a6d&fire=f9f002&currStreakNum=05d9e8&sideNums=D1F7FF&currStreakLabel=ff2a6d&sideLabels=b967ff&dates=8A7FB0&stroke=b967ff" />
 <br/>
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=sjaiswalnetwork&bg_color=0a0014&color=05d9e8&line=ff2a6d&point=f9f002&area=true&area_color=b967ff&title_color=ff2a6d&hide_border=true" />
-<br/>
 <img width="100%" src="https://raw.githubusercontent.com/sjaiswalnetwork/sjaiswalnetwork/output/snake-neon.svg" alt="Neon snake eating the contribution grid" />
 </div>
 
