@@ -36,6 +36,12 @@
 
 <a href="https://www.linkedin.com/in/sj969/details/experience/"><img src="assets/experience.svg" width="100%" alt="Experience timeline: AI Analyst (2026–now), AI & Business Analytics Associate (2021–2026), Programme leadership for Government of India & IEEE (2023–2025), Business Strategy & Operations Manager (2017–2021), MBA IIIT Allahabad" /></a>
 
+<div align="center">
+<a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/edit/main/data/experience.yml"><img src="https://img.shields.io/badge/✏️_Update_experience-0d0221?style=for-the-badge&labelColor=0d0221&color=0d0221" /></a>
+<a href="https://github.com/sjaiswalnetwork/sjaiswalnetwork/tree/main/linkedin"><img src="https://img.shields.io/badge/↻_Sync_from_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/sj969/details/experience/"><img src="https://img.shields.io/badge/Full_experience_on_LinkedIn_↗-0d0221?style=for-the-badge&logo=linkedin&logoColor=05d9e8" /></a>
+</div>
+
 <img src="assets/h04.svg" width="100%" alt="04 Projects" />
 
 <div align="center">
