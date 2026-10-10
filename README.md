@@ -6,7 +6,7 @@
 
 <a href="https://linkedin.com/in/sj969"><img src="https://img.shields.io/badge/LinkedIn-sj969-0d0221?style=for-the-badge&logo=linkedin&logoColor=05d9e8&labelColor=0d0221&color=05d9e8" /></a>
 <a href="mailto:sjaiswalnetwork@gmail.com"><img src="https://img.shields.io/badge/Email-sjaiswalnetwork-0d0221?style=for-the-badge&logo=gmail&logoColor=ff2a6d&labelColor=0d0221&color=ff2a6d" /></a>
-<img src="https://komarev.com/ghpvc/?username=sjaiswalnetwork&style=for-the-badge&color=b967ff&label=PROFILE+VIEWS" />
+<img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsjaiswalnetwork&label=PROFILE%20VIEWS&labelColor=%230d0221&countColor=%23ff2a6d&style=for-the-badge" />
 
 </div>
 
@@ -31,14 +31,19 @@
 
 <img src="assets/h03.svg" width="100%" alt="03 Projects" />
 
-| ⚡ Project | What it does | Stack |
-|---|---|---|
-| 🧾 [**tally-mcp**](https://github.com/sjaiswalnetwork/tally-mcp) | One-click, read-only TallyPrime connector for Claude Desktop. Ask your accounts in plain English; data stays local. | `JavaScript` `MCP` |
-| ⏱️ [**screen-time-tracker**](https://github.com/sjaiswalnetwork/screen-time-tracker) | Free, private Windows app: screen time per app/site, PDF reports, focus mode. [Website ↗](https://sjaiswalnetwork.github.io/screen-time-tracker/) | `C#` |
-| 🧸 [**sj-buddy**](https://github.com/sjaiswalnetwork/sj-buddy) | Desktop toon companion for Windows. ~4,000 lines of C#, 990 dialogue lines in Hindi, English & Hinglish. | `C#` `Claude Code` |
-| 📊 [**claude-pulse**](https://github.com/sjaiswalnetwork/claude-pulse) | See how you use Claude: tokens, models, cost at API rates, plus coaching. 100% in-browser. [Live ↗](https://sjaiswalnetwork.github.io/claude-pulse/) | `HTML` `JS` |
-| 🏎️ [**kart-arena**](https://github.com/sjaiswalnetwork/kart-arena) | Six-player online go-kart racing. Authoritative Node server, client-side prediction. | `JavaScript` `Node` |
-| 🕵️ [**excuse-generator**](https://github.com/sjaiswalnetwork/excuse-generator) | "Alibi": realistic, location-aware late excuses built from real weather and traffic. [Live ↗](https://sjaiswalnetwork.github.io/excuse-generator/) | `JavaScript` |
+<div align="center">
+<a href="https://github.com/sjaiswalnetwork/tally-mcp"><img src="assets/p01.svg" width="49%" alt="tally-mcp" /></a>
+<a href="https://github.com/sjaiswalnetwork/screen-time-tracker"><img src="assets/p02.svg" width="49%" alt="screen-time-tracker" /></a>
+<br/>
+<a href="https://github.com/sjaiswalnetwork/sj-buddy"><img src="assets/p03.svg" width="49%" alt="sj-buddy" /></a>
+<a href="https://github.com/sjaiswalnetwork/claude-pulse"><img src="assets/p04.svg" width="49%" alt="claude-pulse" /></a>
+<br/>
+<a href="https://github.com/sjaiswalnetwork/kart-arena"><img src="assets/p05.svg" width="49%" alt="kart-arena" /></a>
+<a href="https://github.com/sjaiswalnetwork/excuse-generator"><img src="assets/p06.svg" width="49%" alt="excuse-generator" /></a>
+<br/>
+
+<sub><code>LIVE ↗</code> <a href="https://sjaiswalnetwork.github.io/screen-time-tracker/">screen-time-tracker</a> · <a href="https://sjaiswalnetwork.github.io/claude-pulse/">claude-pulse</a> · <a href="https://sjaiswalnetwork.github.io/excuse-generator/">excuse-generator</a></sub>
+</div>
 
 <img src="assets/h04.svg" width="100%" alt="04 Toolkit" />
 
@@ -97,6 +102,9 @@
 
 <img src="assets/h06.svg" width="100%" alt="06 GitHub telemetry" />
 
+<img src="assets/now.svg" width="100%" alt="Live feed: latest commits and repos (auto-updated every 6 hours)" />
+
+
 <div align="center">
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=sjaiswalnetwork&show_icons=true&count_private=true&bg_color=0a0014&title_color=ff2a6d&icon_color=05d9e8&text_color=d1f7ff&border_color=b967ff&border_radius=6" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sjaiswalnetwork&layout=compact&bg_color=0a0014&title_color=ff2a6d&text_color=d1f7ff&border_color=b967ff&border_radius=6" />
@@ -104,6 +112,8 @@
 <img src="https://streak-stats.demolab.com?user=sjaiswalnetwork&background=0A0014&border=b967ff&ring=ff2a6d&fire=f9f002&currStreakNum=05d9e8&sideNums=D1F7FF&currStreakLabel=ff2a6d&sideLabels=b967ff&dates=8A7FB0&stroke=b967ff" />
 <br/>
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=sjaiswalnetwork&bg_color=0a0014&color=05d9e8&line=ff2a6d&point=f9f002&area=true&area_color=b967ff&title_color=ff2a6d&hide_border=true" />
+<br/>
+<img width="100%" src="https://raw.githubusercontent.com/sjaiswalnetwork/sjaiswalnetwork/output/snake-neon.svg" alt="Neon snake eating the contribution grid" />
 </div>
 
 <br/>
