@@ -25,7 +25,7 @@ counters:
   - { value: 900, suffix: "", label: "Calls audited per day by AI" }
   - { value: 35, suffix: "+", label: "AI & automation initiatives" }
   - { value: 22, suffix: "", label: "KPIs on a live scorecard" }
-  - { value: 12, suffix: "", label: "Certifications" }
+  - { value: 16, suffix: "", label: "Certifications" }
 
 about: >-
   I'm an AI Analyst working company-wide across sales, marketing, finance and operations in manufacturing.
@@ -62,6 +62,7 @@ projects:
 achievements:
   - { icon: "🏆", title: "Certificate of Appreciation", text: "Ministry of MSME, Govt. of India — Primary Coordinator, A-ESDP at Kumbh Mela 2025" }
   - { icon: "🤖", title: "8× Anthropic Claude Academy", text: "Claude API, MCP (intro + advanced), Claude Code, Cowork, Platform 101" }
+  - { icon: "⚙️", title: "UiPath · Databricks · Six Sigma", text: "Automation Business Analyst (UiPath), GenAI + AI Agent Fundamentals (Databricks), Six Sigma White Belt at 97%" }
   - { icon: "🔌", title: "Custom MCP servers in production", text: "Tally and Runo CRM — leadership queries live business data in plain English" }
   - { icon: "🎤", title: "IEEE WIE Leadership Summit", text: "Lead Organiser — 120+ attendees and keynote speakers, zero escalations" }
 
@@ -71,6 +72,6 @@ skills:
   - group: "📊 Analytics & BI"
     items: ["Power BI", "Advanced Excel", "Google Sheets & Apps Script", "Python · SQL · R", "SmartPLS / SEM", "Dashboards & KPI design"]
   - group: "🧭 Business Analysis"
-    items: ["Requirements gathering", "Process mapping", "User acceptance testing", "Go-to-market strategy", "Solution architecture", "Digital transformation"]
+    items: ["Requirements gathering", "Process mapping", "PDD / SDD", "User acceptance testing", "RPA (UiPath)", "Process Mining", "Six Sigma (DMAIC)", "Go-to-market strategy", "Solution architecture", "Digital transformation"]
   - group: "🛠️ Systems I run"
     items: ["Runo CRM (Super Admin)", "Tally", "Finaman ERP", "MARG ERP", "Interakt WhatsApp API", "GitHub Pages"]
