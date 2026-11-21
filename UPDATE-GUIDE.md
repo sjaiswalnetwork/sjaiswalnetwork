@@ -34,16 +34,15 @@ posts:
 
 ## 📄 Your CV (Download CV button on the website)
 
-Only you can change it, because only you can edit your GitHub.
+**Just use Google Drive. No GitHub needed.**
 
-1. Open your website → scroll to the bottom → click **⚙ OWNER: UPDATE CV** (or go to [the cv folder](https://github.com/sjaiswalnetwork/sjaiswalnetwork.github.io/tree/main/cv)).
-2. **Add a new CV:** **Add file → Upload files** → drop your PDF → **Commit changes**.
-3. **Remove the old CV:** click the old PDF → **⋯** (top-right) → **Delete file** → **Commit changes**.
-4. **Take it down completely:** delete every PDF in the folder. The Download CV button disappears by itself.
+- **Add / update:** drop your CV PDF into the Drive folder **[Website CV](https://drive.google.com/drive/folders/1bFxPKv7BH9Qd_YuVFIgyp2mZQ5w_4oS4)** (personal account sjaiswalnetwork@gmail.com). The **newest** PDF in the folder becomes the Download CV button within ~1 minute. Old ones can stay or be deleted.
+- **Take it down:** delete (or move out) every PDF in the folder. The button disappears by itself.
+- The website footer link **⚙ OWNER: UPDATE CV** opens this folder for you. Only you can add files to it.
 
-The button appears within ~2 minutes. If there are two PDFs, the website uses the one whose name comes last alphabetically, so delete the old one.
+How it works: the Apps Script project **"Website CV sync"** in your Google account tells the website which PDF is newest and makes it downloadable. Don't delete that project.
 
-> 🛡️ Your CV is public once uploaded. Remove your phone number or address from the PDF if you don't want them online.
+> 🛡️ Your CV is public once it's in the folder. Remove your phone number or address from the PDF if you don't want them online.
 
 ---
 
