@@ -9,6 +9,8 @@ short: "Sj"
 email: "sjaiswalnetwork@gmail.com"
 linkedin: "https://www.linkedin.com/in/sj969/"
 github: "https://github.com/sjaiswalnetwork"
+# Download CV button: newest PDF in your Google Drive folder "Website CV" (leave as is)
+cv_source: "https://script.google.com/macros/s/AKfycbyepUdO4NohTuVoFL-NHD0KE-ZwFgn9HhARt3FJZl26iZRcQx2q4rg4HPPCk100-sR3BA/exec"
 location: "Noida, India"
 open_to_badge: "Open to AI, Analytics & Automation roles · On-site · Hybrid · Remote"
 open_to:
