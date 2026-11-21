@@ -6,7 +6,25 @@
 #  Newest first. The website shows the first 6.
 # ─────────────────────────────────────────────────────────────
 
-posts: []
+posts:
+  - link: "https://www.linkedin.com/feed/update/urn:li:activity:7529401145832714240/"
+    date: "Nov 2026"
+    text: "Everyone wanted AI to fix it. The problem was never the technology. How a Six Sigma mindset took a lookup from 15 minutes to 10 seconds."
+  - link: "https://www.linkedin.com/feed/update/urn:li:activity:7506597883534737408/"
+    date: "Sep 2026"
+    text: "I made a free, read-only tool that lets you ask Claude questions about your Tally accounts in plain English."
+  - link: "https://www.linkedin.com/feed/update/urn:li:activity:7503308707124957185/"
+    date: "Sep 2026"
+    text: "A stock follow-up sheet that refreshes itself every morning: 2,672 follow-ups logged, 499 accounts closed."
+  - link: "https://www.linkedin.com/feed/update/urn:li:activity:7502647826330386432/"
+    date: "Sep 2026"
+    text: "I replaced a 15+ spreadsheet Monday review with one live 22-KPI Balanced Scorecard dashboard."
+  - link: "https://www.linkedin.com/feed/update/urn:li:activity:7497544126184402944/"
+    date: "Aug 2026"
+    text: "From 15 minutes to 10 seconds at ₹0 monthly cost: automating regulatory composition lookups with AI."
+  - link: "https://www.linkedin.com/feed/update/urn:li:activity:7468519600570175488/"
+    date: "Jun 2026"
+    text: "ERP → WhatsApp: 13 automated order-to-dispatch updates, so customers never have to ask where their order is."
 #  Example:
 #  - link: "https://www.linkedin.com/posts/sj969_..."
 #    date: "Oct 2026"
