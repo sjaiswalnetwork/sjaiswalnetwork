@@ -52,12 +52,39 @@ impact:
 
 projects:
   - { icon: "🧾", name: "tally-mcp", tag: "MCP · JavaScript", text: "One-click, read-only TallyPrime connector for Claude Desktop. Ask your accounts in plain English; data stays local.", repo: "https://github.com/sjaiswalnetwork/tally-mcp" }
-  - { icon: "⏱️", name: "Screen Time Tracker", tag: "C# · Windows", text: "Free, private Windows app: screen time per app and site, PDF reports, focus mode.", repo: "https://github.com/sjaiswalnetwork/screen-time-tracker", live: "https://sjaiswalnetwork.github.io/screen-time-tracker/" }
   - { icon: "📊", name: "Claude Pulse", tag: "HTML · JS", text: "See how you use Claude: tokens, models, cost at API rates, plus coaching. 100% in-browser.", repo: "https://github.com/sjaiswalnetwork/claude-pulse", live: "https://sjaiswalnetwork.github.io/claude-pulse/" }
-  - { icon: "🧸", name: "SJ Buddy", tag: "C# · Claude Code", text: "Desktop companion for Windows: ~4,000 lines of C#, 990 dialogue lines in Hindi, English & Hinglish.", repo: "https://github.com/sjaiswalnetwork/sj-buddy" }
-  - { icon: "🏎️", name: "Kart Arena", tag: "Node · Multiplayer", text: "Six-player online go-kart racing with an authoritative Node server and client-side prediction.", repo: "https://github.com/sjaiswalnetwork/kart-arena" }
-  - { icon: "🕵️", name: "Alibi", tag: "JavaScript", text: "Realistic, location-aware late excuses built from real weather and traffic.", repo: "https://github.com/sjaiswalnetwork/excuse-generator", live: "https://sjaiswalnetwork.github.io/excuse-generator/" }
-  - { icon: "🌆", name: "Neon Runner", tag: "Canvas game", text: "Cyberpunk synthwave runner that plays in your browser. Dodge, collect, survive the grid.", repo: "https://github.com/sjaiswalnetwork/neon-runner", live: "https://sjaiswalnetwork.github.io/neon-runner/" }
+  - { icon: "⏱️", name: "Screen Time Tracker", tag: "C# · Windows", text: "Free, private Windows app: screen time per app and site, PDF reports, focus mode.", repo: "https://github.com/sjaiswalnetwork/screen-time-tracker", live: "https://sjaiswalnetwork.github.io/screen-time-tracker/" }
+  # Fun builds (fun: true) show in a separate row below the work tools
+  - { icon: "🧸", name: "SJ Buddy", tag: "C# · Claude Code", text: "Desktop companion for Windows: ~4,000 lines of C#, 990 dialogue lines in Hindi, English & Hinglish.", repo: "https://github.com/sjaiswalnetwork/sj-buddy", fun: true }
+  - { icon: "🕵️", name: "Alibi", tag: "JavaScript", text: "Realistic, location-aware late excuses built from real weather and traffic.", repo: "https://github.com/sjaiswalnetwork/excuse-generator", live: "https://sjaiswalnetwork.github.io/excuse-generator/", fun: true }
+  - { icon: "🏎️", name: "Kart Arena", tag: "Node · Multiplayer", text: "Six-player online go-kart racing with an authoritative Node server and client-side prediction.", repo: "https://github.com/sjaiswalnetwork/kart-arena", fun: true }
+  - { icon: "🌆", name: "Neon Runner", tag: "Canvas game", text: "Cyberpunk synthwave runner that plays in your browser. Dodge, collect, survive the grid.", repo: "https://github.com/sjaiswalnetwork/neon-runner", live: "https://sjaiswalnetwork.github.io/neon-runner/", fun: true }
+
+case_studies:
+  - icon: "🎧"
+    tag: "AI · Speech-to-text · LLM audit"
+    title: "AI call-audit pipeline"
+    result_big: "6–7 hrs → under 2 hrs"
+    problem: "About 900 sales and CRM calls a day. Reviewing the recordings by hand took 6–7 hours every day."
+    solution: "A scheduled pipeline: call recordings from the CRM → Hindi/English speech-to-text → Claude scores every call against a fixed audit checklist → results land in team-wise Google Sheets."
+    result: "Review time cut from 6–7 hours to under 2, with audit results organised per team and per rep."
+    stack: "Runo CRM · Sarvam AI · Claude · Google Sheets · scheduled tasks"
+  - icon: "🔎"
+    tag: "Process fix · Offline tool"
+    title: "Regulatory lookup finder"
+    result_big: "15 min → 10 s"
+    problem: "Staff matched product compositions by hand against 3 long approval documents (2,856 entries) — 10–15 minutes per lookup, with spelling and unit mismatches."
+    solution: "Treated it as a process problem first. Built a single-file offline finder with AI: paste a composition and get the form, entry number, table location and a link to the scanned approval page. Deterministic, exact matches only, all 2,856 entries tested on every build."
+    result: "~98% faster lookups, 4–5 staff-hours saved per day, ₹0 running cost, handed over to a non-technical user."
+    stack: "Claude (build time only) · HTML/JS · Google Drive sync"
+  - icon: "💬"
+    tag: "ERP integration · API"
+    title: "ERP → WhatsApp order updates"
+    result_big: "13 auto-updates"
+    problem: "Customers had to call to ask \"where's my order?\", and the team re-typed data between two ERPs every day."
+    solution: "Connected the ERP to the WhatsApp Business API with 13 approved templates that fire automatically from order acceptance to dispatch, with live product, MRP and delivery date. Added a live ERP-to-ERP transfer-slip sync."
+    result: "Customers updated at every stage without a call, and 80–90 manual entries a day eliminated."
+    stack: "Finaman ERP · Interakt WhatsApp API · CSV export · Google Apps Script"
 
 achievements:
   - { icon: "🏆", title: "Certificate of Appreciation", text: "Ministry of MSME, Govt. of India — Primary Coordinator, A-ESDP at Kumbh Mela 2025" }
@@ -70,7 +97,7 @@ skills:
   - group: "🤖 AI & Automation"
     items: ["Claude & Claude Code", "Custom MCP servers", "AI agents & agentic workflows", "Prompt engineering", "Sarvam AI", "ChatGPT · Gemini"]
   - group: "📊 Analytics & BI"
-    items: ["Power BI", "Advanced Excel", "Google Sheets & Apps Script", "Python · SQL · R", "SmartPLS / SEM", "Dashboards & KPI design"]
+    items: ["Power BI", "Advanced Excel", "Google Sheets & Apps Script", "Python · SQL (basic, AI-assisted)", "SmartPLS / SEM", "Dashboards & KPI design"]
   - group: "🧭 Business Analysis"
     items: ["Requirements gathering", "Process mapping", "PDD / SDD", "User acceptance testing", "RPA (UiPath)", "Process Mining", "Six Sigma (DMAIC)", "Go-to-market strategy", "Solution architecture", "Digital transformation"]
   - group: "🛠️ Systems I run"
