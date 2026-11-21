@@ -36,7 +36,7 @@ posts:
 
 **Just use Google Drive. No GitHub needed.**
 
-- **Add / update:** drop your CV PDF into the Drive folder **[Website CV](https://drive.google.com/drive/folders/1bFxPKv7BH9Qd_YuVFIgyp2mZQ5w_4oS4)** (personal account sjaiswalnetwork@gmail.com). The **newest** PDF in the folder becomes the Download CV button within ~1 minute. Old ones can stay or be deleted.
+- **Add / update:** drop your CV PDF into the Drive folder **[Website CV](https://drive.google.com/drive/folders/1bFxPKv7BH9Qd_YuVFIgyp2mZQ5w_4oS4)** (personal account sjaiswalnetwork@gmail.com). The **newest** PDF becomes the Download CV button instantly. Older CVs in the folder are moved **automatically** to 01 Career → CV - Old versions (never deleted), so you never clean up by hand.
 - **Take it down:** delete (or move out) every PDF in the folder. The button disappears by itself.
 - The website footer link **⚙ OWNER: UPDATE CV** opens this folder for you. Only you can add files to it.
 
