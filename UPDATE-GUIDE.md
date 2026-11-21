@@ -14,7 +14,7 @@ Open the file → click the ✏️ pencil (top-right) → edit → green **Commi
 |---|---|
 | Jobs / experience timeline | [`data/experience.yml`](data/experience.yml) |
 | Certifications / awards | [`data/credentials.yml`](data/credentials.yml) |
-| Website text: headline, "Open to" roles, counters, about, quick facts, impact, projects, achievements, skills | [`data/profile.yml`](data/profile.yml) |
+| Website text: headline, "Open to" roles, counters, about, quick facts, impact, **case studies**, projects (add `fun: true` for a fun build), achievements, skills | [`data/profile.yml`](data/profile.yml) |
 | LinkedIn posts on the website (paste post links) | [`data/posts.yml`](data/posts.yml) |
 | Recommendations on the website | [`data/recommendations.yml`](data/recommendations.yml) |
 
@@ -27,6 +27,23 @@ posts:
     date: "Oct 2026"
     text: "First line of the post"
 ```
+
+**Certificate link:** under a certificate in `data/credentials.yml`, add a line `    url: "https://..."` (4 spaces). It becomes a clickable "Verify ↗" on the website.
+
+---
+
+## 📄 Your CV (Download CV button on the website)
+
+Only you can change it, because only you can edit your GitHub.
+
+1. Open your website → scroll to the bottom → click **⚙ OWNER: UPDATE CV** (or go to [the cv folder](https://github.com/sjaiswalnetwork/sjaiswalnetwork.github.io/tree/main/cv)).
+2. **Add a new CV:** **Add file → Upload files** → drop your PDF → **Commit changes**.
+3. **Remove the old CV:** click the old PDF → **⋯** (top-right) → **Delete file** → **Commit changes**.
+4. **Take it down completely:** delete every PDF in the folder. The Download CV button disappears by itself.
+
+The button appears within ~2 minutes. If there are two PDFs, the website uses the one whose name comes last alphabetically, so delete the old one.
+
+> 🛡️ Your CV is public once uploaded. Remove your phone number or address from the PDF if you don't want them online.
 
 ---
 
